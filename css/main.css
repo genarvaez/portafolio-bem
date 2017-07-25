@@ -81,13 +81,26 @@
       width: 50%;
       height: 300px;
       padding: 20px;
-      border-radius: 40px; }
+      border-radius: 40px;
+      -webkit-transition: width 0.8s;
+      /* Safari */
+      transition: width 0.8s; }
+    .portfolio__item img:hover {
+      width: 55%;
+      height: 400px; }
     .portfolio__item__description {
       font-size: 1.8em;
       text-align: justify;
       padding: 30px;
       color: #848484;
       box-shadow: -2px 13px 52px -8px rgba(0, 0, 0, 0.75); }
+
+footer {
+  text-align: center;
+  color: white;
+  padding: 20px; }
+  footer img {
+    width: 30px; }
 
 * {
   padding: 0;
